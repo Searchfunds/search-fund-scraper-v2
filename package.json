@@ -1,0 +1,20 @@
+<span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">"name"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"search-fund-scraper"</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"version"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"1.0.0"</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"type"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"module"</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"scripts"</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
+    <span class="hljs-attr">"start"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"node src/index.js"</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">"dev"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"nodemon src/index.js"</span>
+  <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"dependencies"</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
+    <span class="hljs-attr">"@supabase/supabase-js"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"^2.39.3"</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">"puppeteer"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"^21.7.0"</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">"node-cron"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"^3.0.3"</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">"express"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"^4.18.2"</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">"winston"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"^3.11.0"</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">"dotenv"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"^16.3.1"</span>
+  <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"devDependencies"</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
+    <span class="hljs-attr">"nodemon"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"^3.0.2"</span>
+  <span class="hljs-punctuation">}</span>
+<span class="hljs-punctuation">}</span>
